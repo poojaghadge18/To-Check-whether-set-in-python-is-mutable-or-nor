@@ -7,14 +7,22 @@
 myset={"Data","data1",0,0,"Task"}
 print(myset)
 
+out put-> {'Data', 0, 'Task', 'data1'}
+
 #adding element into the set
 
 print("my set before adding element:",myset)
 myset.add(60)
 print("my set after adding element:",myset)
 
+out put-> my set before adding element: {'Data', 0, 'Task', 'data1'}
+my set after adding element: {'Data', 0, 'Task', 'data1', 60}
+
 #deleting element from the set
 
 print("my set before deletion of element:",myset)
 myset.remove(60)
 print("my set after deletion of element:",myset)
+
+out put-> my set before deletion of element: {'Data', 0, 'Task', 'data1', 60}
+my set after deletion of element: {'Data', 0, 'Task', 'data1'}
