@@ -1,0 +1,20 @@
+#set
+#unordered collection of datatypes
+#symoble used to enclose:{}
+#no duplicates allowed
+
+#test data
+myset={"Data","data1",0,0,"Task"}
+print(myset)
+
+#adding element into the set
+
+print("my set before adding element:",myset)
+myset.add(60)
+print("my set after adding element:",myset)
+
+#deleting element from the set
+
+print("my set before deletion of element:",myset)
+myset.remove(60)
+print("my set after deletion of element:",myset)
